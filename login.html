@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="login-container">
+	<form class="login-form" id="loginForm" action="login.php" method="POST">
+		<h2>Login</h2>
+
+		<!-- E-Mail Eingabe -->
+		<label for="email">E-Mail-Adresse</label>
+		<input type="email" name="email" id="email" placeholder="Deine E-Mail-Adresse" required>
+
+		<!-- Passwort Eingabe -->
+		<label for="password">Passwort</label>
+		<input type="password" name="password" id="password" placeholder="Dein Passwort" required>
+
+		<!-- Angemeldet bleiben -->
+		<div class="form-checkbox">
+			<label>
+				<input type="checkbox" name="remember_me"> Angemeldet bleiben
+			</label>
+		</div>
+
+		<!-- Datenschutz Zustimmung -->
+		<div class="form-checkbox">
+			<label>
+				<input type="checkbox" name="datenschutz" required>
+				Ich akzeptiere die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a>
+			</label>
+		</div>
+
+		<!-- Login Button -->
+		<button type="submit" class="btn">Login</button>
+	</form>
+</div>
+
+
+<!--/-- >
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="loginDiv">
+	<form class="loginForm" id="loginForm" action="login.php" method="POST">
+		<div class="loginLabelEmail">
+			<label for="email">E-Mail  :</label>
+		</div>
+		<input type="email" name="email" id="email" required>
+		<br>
+		<div class="loginLabelPassword">
+			<label for="password">Passwort:</label>
+		</div>
+		<input type="password" name="password" id="password" required>
+		<br>
+		<label>
+			<input type="checkbox" name="remember_me"> Angemeldet bleiben
+		</label>
+		<br>
+		<label>
+                <input type="checkbox" name="datenschutz" required>
+                Ich akzeptiere die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a>
+            </label>
+           <br>
+		<button type="submit">Login</button>
+	</form>
+</div>
+<!--/-->
